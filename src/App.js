@@ -23,11 +23,11 @@ function App() {
     };
 
     return (
-        <div>
-            <Navigation setCurrentPage={setCurrentPage}/>
-            {renderPage()}
-            <Footer/>
-        </div>
+            <div>
+                <Navigation setCurrentPage={setCurrentPage}/>
+                {renderPage()}
+                <Footer/>
+            </div>
     )
   }
   

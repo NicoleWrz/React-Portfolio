@@ -4,6 +4,11 @@
     --light-gray: rgb(102, 102, 102);
 }
 
+.body {
+    background-color: var(--dark-gray);
+}
+
+/* NAV BAR */
 .navbar {
     width: 100%;
     background: var(--gray);
@@ -46,19 +51,45 @@
     border-radius: 5px;
 }
 
+/* ABOUT PAGE */
 
+.emote {
+    display: flex;
+    margin-left: 150px;
+}
 
+.card-body {
+    background-color: var(--gray);
+    border-radius: 20px;
+}
 
+.aboutBody {
+    color: white;
+}
 
-
-
-
-
-
-
-
-
-
+.resumeButton {
+    color:pink;
+}
 
 
 /*  FOOTER  */
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer a {
+    margin: 50px 50px;
+}
+
+.github:hover {
+    opacity: 80%
+}
+
+.linkedin:hover {
+    opacity: 80%
+}
+
+.email:hover {
+    opacity: 80%
+}
