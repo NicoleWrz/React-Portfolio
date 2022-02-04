@@ -53,18 +53,17 @@
 
 /* ABOUT PAGE */
 
-.emote {
-    display: flex;
-    margin-left: 150px;
-}
-
-.card-body {
-    background-color: var(--gray);
-    border-radius: 20px;
-}
-
-.aboutBody {
+.about-container {
     color: white;
+    padding-top: 70px;
+}
+
+.emote {
+    border-radius: 200px;
+}
+
+.bio {
+    padding-top: 100px;
 }
 
 .resumeButton {
