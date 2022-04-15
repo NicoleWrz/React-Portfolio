@@ -11,6 +11,8 @@
   ## Description
   This is my professional portfolio that is completely responsive made using React and Bootstrap components. 
   
+  [Deployed Link](https://lucky-frangollo-3fa78f.netlify.app/)
+  
   ## Video
 
 ![ezgif-4-8648596446](https://user-images.githubusercontent.com/92045019/163506150-0b4594bf-e05a-4017-aa0d-004c13b94fd6.gif)
