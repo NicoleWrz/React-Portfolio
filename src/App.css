@@ -180,6 +180,7 @@
     color: var(--light-gray);
     margin-right: 30px;
     margin-left: 30px;
+    
 }
 
 .list {
@@ -198,6 +199,8 @@
     list-style-type: none;
     padding: 10px 150px 10px 120px;
     font-size: 1.2em;
+    display: flex;
+    justify-content: center;
 }
 
 .checkmark {
