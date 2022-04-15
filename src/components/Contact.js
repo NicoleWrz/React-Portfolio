@@ -1,31 +1,30 @@
-// import React from "react";
-// import { ChatAlt2Icon } from "@heroicons/react/solid";
-// import { SocialIcon } from 'react-social-icons';
+import React from 'react';
+import { FaComments } from 'react-icons/fa';
 
-// export default function Contact() {
-//     return (
-//         <section id="" className="">
-//           <div className="">
-//             <div className="">
-//               <ChatAlt2Icon className="" />
-//               <h1 className="">
-//                 Contact Me
-//               </h1>
-//             </div>
-//             <div className="">
-//                 <SocialIcon url="https://github.com/NicoleWrz" target="_blank" bgColor="#DCA8B8" style={{ height: 100, width: 100 }}/>
-//                 <SocialIcon url="https://www.linkedin.com/in/nicole-wrzosek-9890b6162/" target="_blank" fgColor="#ffffff" style={{ height: 100, width: 100 }}/>
-//                 <SocialIcon url="mailto: nicolew96@gmail.com" network="mailto" target="_blank" bgColor="#CBB4CF" style={{ height: 100, width: 100 }} />
-//             </div>
-//           </div>
-//         </section>
-//       );
-// }
-
-import React from "react";
-
-export default function Contact() {
-    return (
-        <h1>Contact form</h1>
+export default function ContactUs() {
+    return(
+        <div className="contact">
+            <h2 className="contact-title"> <FaComments className="chaticon"/> Contact Me <FaComments className="chaticon"/> </h2>
+            <div className="contact-components">
+            <div className="email-info">
+                <h4>Email</h4>
+                <h6>nicolew96@gmail.com</h6>
+            </div>
+            <div className="phone-info">
+                <h4>Phone</h4>
+                <h6>201.407.8415</h6>
+            </div>
+            <div className="links-info">
+                <h4>On The Web</h4>
+                <h6><a href="https://www.linkedin.com/in/nicole-wrzosek">LinkedIn</a> &nbsp; | &nbsp;
+                <a href="https://github.com/NicoleWrz">Github</a>
+                </h6>
+            </div>
+            <div className="location-info">
+                <h4>Location</h4>
+                <h6>Parsippany, NJ</h6>
+            </div>
+            </div>
+        </div>
     )
 }

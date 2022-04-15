@@ -1,8 +1,74 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
-
-export default function Portfolio() {
-    return (
-        <h1>Portfolio with gifs and 2 links</h1>
-    )
+export default function Project({
+  title,
+  demoLink,
+  githubLink,
+  projectImg,
+  description,
+  technologies,
+}) {
+  return (
+    <React.Fragment>
+      <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <div className="img-wrap">
+          <div className="image-box">
+            <div>
+              <img src={projectImg} alt="Screenshot of BTS Quiz" />
+            </div>
+          </div>
+          <div className="img-description">
+            <a href={demoLink} target="_blank" rel="noreferrer">
+              <div className="portfolio-title">{title}</div>
+            </a>
+            <a href={githubLink} target="_blank" rel="noreferrer">
+              <i className="fab fa-github fa-3x">
+                <FontAwesomeIcon className="githubicon" icon={faGithub} />
+              </i>
+            </a>
+          </div>
+        </div>
+        <p>{description}</p>
+        <h6>{technologies}</h6>
+      </div>
+    </React.Fragment>
+  );
 }
+
+
+
+
+// import React from "react";
+// import { projects } from "./Projects";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
+// export default function Portfolio() {
+//     return (
+//         <React.Fragment>
+//       <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+//         <div className="img-wrap">
+//           <div className="image-box">
+//             <div>
+//               <img src={projects.image} alt="Screenshot of BTS Quiz" />
+//             </div>
+//           </div>
+//           <div className="img-description">
+//             <a href={projects.link} target="_blank" rel="noreferrer">
+//               <div className="portfolio-title">{projects.title}</div>
+//             </a>
+//             <a href={projects.github} target="_blank" rel="noreferrer">
+//               <i className="fab fa-github fa-3x">
+//                 <FontAwesomeIcon className="githubicon" icon={faGithub} />
+//               </i>
+//             </a>
+//           </div>
+//         </div>
+//         <p>{projects.description}</p>
+//         <h6>{projects.subtitle}</h6>
+//       </div>
+//     </React.Fragment>
+//     )
+// }

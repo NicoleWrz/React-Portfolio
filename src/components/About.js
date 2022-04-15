@@ -11,17 +11,17 @@ export default function About() {
               src={Avatar}
               className="emote"
               alt="Emote"
-              width="450"
-              height="450"
+              width="400"
+              height="400"
             ></img>
           </Col>
           <Col lg={true} className="bio">
             <div>
               <h1>Hi, I'm Nicole.</h1>
-              <h3>I love building creative and engaging websites.</h3>
+              <h3>I ♥ building creative and engaging websites.</h3>
               <p className="description">
-                I'm a passionate Full Stack Web Developer with experience
-                building web applications with JavaScript, React, Express, HTML,
+                I'm a passionate Web Developer with experience
+                building web applications with JavaScript, React, HTML,
                 CSS and other technologies and frameworks.
               </p>
               <div className="text-center">
