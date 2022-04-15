@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.34e9a1f2.css",
-    "main.js": "/react-portfolio/static/js/main.8e64c81f.js",
-    "static/media/pokefinder.gif": "/react-portfolio/static/media/pokefinder.b2e8659d0dbcfba083d6.gif",
-    "static/media/FoodForDays.gif": "/react-portfolio/static/media/FoodForDays.4b2539fe99b1837b8462.gif",
-    "static/media/redux-store.gif": "/react-portfolio/static/media/redux-store.c79078111348c5785702.gif",
-    "static/media/e-commerce.gif": "/react-portfolio/static/media/e-commerce.0ae76625c46b8a930305.gif",
-    "static/media/employee-tracker.gif": "/react-portfolio/static/media/employee-tracker.e9f51b43f5bd15303117.gif",
-    "static/media/social-network.gif": "/react-portfolio/static/media/social-network.00ef7ce84cc4441d1019.gif",
-    "static/media/emote.png": "/react-portfolio/static/media/emote.703460679b75f8172c5c.png",
-    "static/media/weather-dashboard.gif": "/react-portfolio/static/media/weather-dashboard.0f27d01ed76a874e8b3f.gif",
-    "static/media/tech-blog.gif": "/react-portfolio/static/media/tech-blog.66b5507db51731e9b02a.gif",
-    "index.html": "/react-portfolio/index.html",
-    "main.34e9a1f2.css.map": "/react-portfolio/static/css/main.34e9a1f2.css.map",
-    "main.8e64c81f.js.map": "/react-portfolio/static/js/main.8e64c81f.js.map"
+    "main.css": "/static/css/main.34e9a1f2.css",
+    "main.js": "/static/js/main.17c502bd.js",
+    "static/media/pokefinder.gif": "/static/media/pokefinder.b2e8659d0dbcfba083d6.gif",
+    "static/media/FoodForDays.gif": "/static/media/FoodForDays.4b2539fe99b1837b8462.gif",
+    "static/media/redux-store.gif": "/static/media/redux-store.c79078111348c5785702.gif",
+    "static/media/e-commerce.gif": "/static/media/e-commerce.0ae76625c46b8a930305.gif",
+    "static/media/employee-tracker.gif": "/static/media/employee-tracker.e9f51b43f5bd15303117.gif",
+    "static/media/social-network.gif": "/static/media/social-network.00ef7ce84cc4441d1019.gif",
+    "static/media/emote.png": "/static/media/emote.703460679b75f8172c5c.png",
+    "static/media/weather-dashboard.gif": "/static/media/weather-dashboard.0f27d01ed76a874e8b3f.gif",
+    "static/media/tech-blog.gif": "/static/media/tech-blog.66b5507db51731e9b02a.gif",
+    "index.html": "/index.html",
+    "main.34e9a1f2.css.map": "/static/css/main.34e9a1f2.css.map",
+    "main.17c502bd.js.map": "/static/js/main.17c502bd.js.map"
   },
   "entrypoints": [
     "static/css/main.34e9a1f2.css",
-    "static/js/main.8e64c81f.js"
+    "static/js/main.17c502bd.js"
   ]
 }
