@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaComments } from 'react-icons/fa';
 
-export default function ContactUs() {
+export default function ContactMe() {
     return(
         <div className="contact">
             <h2 className="contact-title"> <FaComments className="chaticon"/> Contact Me <FaComments className="chaticon"/> </h2>
